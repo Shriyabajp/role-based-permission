@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:weightSum="25">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout_home"
+        android:layout_weight="24">
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:id="@+id/bt_create"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Create new user!"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:backgroundTint="@color/cardview_shadow_end_color"-->
+        <!--android:padding="16dp"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/bt_get_all_users"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Show all users!"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:backgroundTint="@color/cardview_shadow_end_color"-->
+        <!--android:padding="16dp"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/bt_create_permission"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Create Permission!!"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:backgroundTint="@color/cardview_shadow_end_color"-->
+        <!--android:padding="16dp"-->
+        <!--android:layout_marginBottom="30dp"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/bt_create_role"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Create Roles!!"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:backgroundTint="@color/cardview_shadow_end_color"-->
+        <!--android:padding="16dp"-->
+        <!--android:layout_marginBottom="30dp"/>-->
+
+    <Button
+        android:id="@+id/bt_back_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Log Out"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:padding="16dp"
+        android:layout_marginBottom="80dp"
+        android:layout_weight="1"/>
+    <!--<Button-->
+        <!--android:id="@+id/log_out"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Back to login"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:backgroundTint="@color/cardview_shadow_end_color"-->
+        <!--android:padding="16dp"-->
+        <!--android:layout_marginBottom="80dp"-->
+        <!--android:layout_weight="1"/>-->
+
+
+</LinearLayout>
