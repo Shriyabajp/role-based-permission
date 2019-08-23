@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+ 
+<html>
+<head>
+  <title>Registration</title>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="/js/postrequest.js"></script>
+      <script src="/js/getrequest.js"></script>
+	  
+</head>
+<body>
+<div class="container">
+ 
+	<h3 style="color:blue">REGISTER HERE</h3>
+	
+	<div>
+		<form class="form-inline" style="margin:20px 20px 20px 20px" id="customerForm">
+			<tr>
+			<div class="form-group">
+				<label for="username" style="margin-right:12px">User Name:</label>
+			<td><input type="text" class="form-control" id="username" placeholder="Enter username"/></td>
+			</div>
+			<br/>
+			<div class="form-group">
+				<label for="password" style="margin-right:20px; margin-right:">Password:</label>
+				<td><input type="Password" class="form-control" id="password" placeholder="Enter password"/></td>
+			</div>
+				<br/>
+				<div class="form-group">
+				<label for="email" style="margin-left:29px; margin-right:20px">Email:</label>
+			<td><input type="text" class="form-control" id="email" placeholder="Enter Email"/></td>
+		</div>
+				<br/>
+				<div class="form-group">
+				<label for="role" style="margin-left:35px; margin-right:20px">Role:</label>
+			<td><input type="text" class="form-control" id="role" placeholder="Enter Role" /></td>
+		</div>
+		<br/>
+			<td><button type="submit" class="btn btn-default" style="margin-right:20px; margin-right:">Login</button></td>
+		</tr>
+		</form>
+	</div>
+	
+	<div class="col-sm-7" id="postResultDiv">
+	</div>
+	
+	<div class="col-sm-7" style="margin:20px 0px 20px 0px">
+		<button id="getAllCustomerId" type="button" class="btn btn-primary">Get All Customers</button>
+		<div id="getResultDiv" style="padding:20px 10px 20px 50px">
+	        <ul class="list-group">
+	    	</ul>
+    	</div>
+	</div>
+	
+</div>
+</body>
+</html>

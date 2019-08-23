@@ -1,0 +1,20 @@
+package com.example.permissionRoleProject.response;
+
+import java.util.List;
+
+public class PermissionResponse {
+    List<String> permissions;
+
+
+    public List<String> getPermissions() {
+        return permissions;
+    }
+
+    public void setPermissions(List<String> permissions) {
+        this.permissions = permissions;
+    }
+
+    public PermissionResponse(List<String> permissions) {
+        this.permissions = permissions;
+    }
+}
